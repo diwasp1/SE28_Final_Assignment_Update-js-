@@ -457,6 +457,7 @@
   .recent-post__section-second {
     float: left;
     width: 50%;
+
   }
   .recent-post__section-second:nth-of-type(1) {
     padding-right: 10px;
@@ -474,6 +475,7 @@
   }
   .recent-post__section-third {
     max-width: 100%;
+    background-color: #ffffff;
   }
 
   /* footer  */
