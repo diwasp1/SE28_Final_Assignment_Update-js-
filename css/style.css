@@ -115,7 +115,8 @@
 
 .slider__image {
   float: left;
-  background-color: #ff9b9b;
+  background-image: url("/img/banner/slider-banner.png");
+  background-repeat: no-repeat;
   width: 70%;
   min-height: 30.5em;
 }
@@ -157,7 +158,6 @@
   display: inline-block;
 }
 .instagram__slider {
-  /* height: 20vh; */
   width: 100%;
   min-height: 12.5em;
 }
@@ -191,10 +191,12 @@
 }
 
 .instagram__image .light {
-  background-color: #424242;
+  background-image: url("/img/banner/instra-banner-light.png");
+  background-repeat: no-repeat;
 }
 .instagram__image .dark {
-  background-color: #161617;
+  background-image: url("/img/banner/instra-banner-dark.png");
+  background-repeat: no-repeat;
 }
 
 /* main-container__section-3  */
@@ -235,11 +237,6 @@
 
 /* blog  */
 
-/* .section-first__image {
-  background-image: url("/img/banner/row-1-banner.png");
-  background-repeat: no-repeat;
-  min-height: 23.125em;
-} */
 .blog-image-wrapper {
   position: relative;
 }
@@ -457,7 +454,6 @@
   .recent-post__section-second {
     float: left;
     width: 50%;
-
   }
   .recent-post__section-second:nth-of-type(1) {
     padding-right: 10px;
@@ -566,11 +562,11 @@
 
   .slider__left-arrow,
   .slider__right-arrow {
-    width: 5%;
+    width: 9%;
   }
 
   .slider__image {
-    width: 90%;
+    width: 82%;
   }
 
   .instagram__left-arrow,
@@ -645,10 +641,22 @@
   .side-bar__image {
     background-color: #ffffff;
     padding: 0.625em;
+    position: relative;
   }
   .side-bar__image__border {
     border: 2px solid #ffb79b;
     height: 250px;
+  }
+  .side-bar__size {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  .side-bar__size p {
+    font-size: 1.875em;
+    color: #ffb79b;
   }
 
   .side-bar__categories__item {
