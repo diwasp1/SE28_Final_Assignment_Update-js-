@@ -32,7 +32,7 @@ a {
 
 a {
   cursor: pointer;
-  color: #000000;
+  color: #313131;
 }
 input:focus {
   outline: none;
@@ -41,6 +41,7 @@ input:focus {
 body {
   font-size: 10px;
   font-family: "Raleway Semi Bold";
+  color: #313131;
 }
 
 .clearfix::after {
