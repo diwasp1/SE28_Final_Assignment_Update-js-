@@ -1,0 +1,24 @@
+/* header style  */
+
+.header-container {
+  background-color: #ffffff;
+  border-bottom: 2px solid #cecece;
+}
+.header-wrapper {
+  width: 100%;
+}
+
+/* main-content style  */
+
+.main-container {
+  background-color: #f7f7f7;
+  border-bottom: 2px solid #ffb79b;
+  padding-bottom: 7.5em;
+}
+
+/* footer style  */
+
+.footer-container {
+  background-color: #f7f7f7;
+  padding-bottom: 3.75em;
+}

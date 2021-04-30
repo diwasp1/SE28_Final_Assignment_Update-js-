@@ -1,0 +1,56 @@
+/* -------------------------------------- font style -------------------------------------- */
+@font-face {
+  font-family: "Raleway Semi Bold";
+  src: url("/fonts/Raleway/static/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Raleway Regular";
+  src: url("/fonts/Raleway/static/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "Raleway Light";
+  src: url("/fonts/Raleway/static/Raleway-Light.ttf");
+}
+
+@font-face {
+  font-family: "Notera";
+  src: url("/fonts/Notera/Notera\ Personal\ Use\ Only\ 400.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  color: #000000;
+}
+input:focus {
+  outline: none;
+}
+
+body {
+  font-size: 10px;
+  font-family: "Raleway Semi Bold";
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  max-width: 1167px;
+  padding: 0px 18px;
+  margin: 0px auto;
+}
