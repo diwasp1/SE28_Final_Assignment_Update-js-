@@ -52,6 +52,39 @@
   background-color: #ffb79b;
 }
 
+/* sidenav  */
+
+.header__side-nav {
+  position: fixed;
+  overflow-x: hidden;
+  width: 0;
+  height: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f2f1f1;
+  opacity: 0.95;
+  transition: 0.5s;
+}
+.side-nav__item {
+  font-family: "Raleway Semi Bold";
+  display: block;
+  padding: 1em;
+  font-size: 1.5em;
+  border-bottom: 2px solid #f2f1f1;
+  transition: 0.3s;
+}
+.side-nav__item:hover {
+  color: #ffb79b;
+  border-bottom: 2px solid #ffb79b;
+}
+.close-button-wrapper {
+  text-align: right;
+}
+.close-button {
+  display: inline-block;
+}
+
 /* -------------------------------------- main-content style -------------------------------------- */
 
 /* logo  */
